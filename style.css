@@ -1,0 +1,205 @@
+/* =========================================================
+   PROJECT: BOOK PUBLISHING WORKFLOW SYSTEM
+   TECHNOLOGIES: HTML5 and CSS3
+   THEME: Forest Green, Beige, Sand, and Brown
+   PERMITTED CLASSES: .Container and .Card ONLY
+   ========================================================= */
+
+/* General Body Styling */
+body {
+    background-color: #F5F0E5;
+    color: #493526;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #234B35;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    margin: 0px;
+}
+
+header p {
+    color: #DCC9A3;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #183728;
+    padding: 12px 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+nav a:hover {
+    background-color: #234B35;
+    color: #DCC9A3;
+    border-radius: 4px;
+}
+
+/* Headings */
+h2 {
+    color: #183728;
+    font-size: 24px;
+    border-bottom: 2px solid #DCC9A3;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #795438;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+/* Permitted Class 1: Container */
+.Container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/* Permitted Class 2: Card */
+.Card {
+    background-color: #FFFFFF;
+    border: 2px solid #DCC9A3;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Table Styling for Manuscript Management */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    color: #795438;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+th {
+    background-color: #234B35;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #DCC9A3;
+}
+
+td {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #DCC9A3;
+}
+
+/* Form Styling */
+label {
+    color: #183728;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #DCC9A3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #234B35;
+    color: #FFFFFF;
+    border: 1px solid #183728;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #795438;
+    color: #FFFFFF;
+    border: 1px solid #493526;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #183728;
+}
+
+input[type="reset"]:hover {
+    background-color: #493526;
+}
+
+/* Footer Section */
+footer {
+    background-color: #183728;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    color: #F5F0E5;
+    margin: 5px 0px;
+}

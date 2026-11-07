@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Manuscript - Book Publishing Workflow System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Book Publishing Workflow</h1>
+        <p>A Simple Management System for Authors, Editors, and Publishers</p>
+        
+        <!-- Navigation Bar linking to separate pages -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="manuscripts.html">Manuscripts</a></li>
+                <li><a href="workflow.html">Workflow Stages</a></li>
+                <li><a href="team.html">Authors &amp; Editors</a></li>
+                <li><a href="revisions.html">Revisions</a></li>
+                <li><a href="approvals.html">Approvals</a></li>
+                <li><a href="submission.html">Submit Manuscript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="submission">
+            <div class="Container">
+                <h2>Manuscript Submission Form</h2>
+                
+                <div class="Card">
+                    <h3>Submit a New Manuscript</h3>
+                    <form action="#" method="post">
+                        <p>
+                            <label for="authorName">Author Name:</label><br>
+                            <input type="text" id="authorName" name="authorName" placeholder="Enter author full name" required>
+                        </p>
+
+                        <p>
+                            <label for="authorEmail">Email Address:</label><br>
+                            <input type="email" id="authorEmail" name="authorEmail" placeholder="Enter author email address" required>
+                        </p>
+
+                        <p>
+                            <label for="bookTitle">Book Title:</label><br>
+                            <input type="text" id="bookTitle" name="bookTitle" placeholder="Enter proposed book title" required>
+                        </p>
+
+                        <p>
+                            <label for="genre">Genre:</label><br>
+                            <select id="genre" name="genre">
+                                <option value="Fiction">Fiction</option>
+                                <option value="Non-Fiction">Non-Fiction</option>
+                                <option value="Academic">Academic / Educational</option>
+                                <option value="Science Fiction">Science Fiction</option>
+                                <option value="Mystery">Mystery / Thriller</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <label for="submissionDate">Submission Date:</label><br>
+                            <input type="date" id="submissionDate" name="submissionDate" required>
+                        </p>
+
+                        <p>
+                            <label for="description">Short Description:</label><br>
+                            <textarea id="description" name="description" rows="4" placeholder="Enter a brief summary of your manuscript..." required></textarea>
+                        </p>
+
+                        <p>
+                            <input type="submit" value="Submit Manuscript">
+                            <input type="reset" value="Reset Form">
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="Container">
+            <p>Book Publishing Workflow System</p>
+        </div>
+    </footer>
+
+</body>
+</html>

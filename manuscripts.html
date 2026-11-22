@@ -34,7 +34,11 @@
                 
                 <div class="Card">
                     <h3>Current Manuscript Records</h3>
-                    <table>
+                    <p>
+                        <label for="manuscriptSearch">Filter Manuscripts:</label><br>
+                        <input type="text" id="manuscriptSearch" placeholder="Type title, author, genre, or status to filter...">
+                    </p>
+                    <table id="manuscriptTable">
                         <caption>List of Submitted Manuscripts and Their Current Status</caption>
                         <thead>
                             <tr>
@@ -91,9 +95,11 @@
     <!-- Footer Section -->
     <footer>
         <div class="Container">
-            <p>Book Publishing Workflow System</p>
+            <p>&copy; <span class="currentYear"></span> Book Publishing Workflow System</p>
         </div>
     </footer>
 
+    <!-- JavaScript File Linking -->
+    <script src="script.js"></script>
 </body>
 </html>

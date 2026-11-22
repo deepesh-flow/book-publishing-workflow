@@ -32,21 +32,29 @@
             <div class="Container">
                 <h2>Approval and Decisions</h2>
                 
-                <div class="Card">
+                <p>
+                    <strong>Filter by Status: </strong>
+                    <button type="button" class="filter-btn" data-status="all">Show All</button>
+                    <button type="button" class="filter-btn" data-status="Approved">Approved</button>
+                    <button type="button" class="filter-btn" data-status="Conditional Approval">Conditional</button>
+                    <button type="button" class="filter-btn" data-status="Under Revision">Under Revision</button>
+                </p>
+
+                <div class="Card" data-status="Approved">
                     <h3>The Silent Forest</h3>
                     <p><strong>Reviewer:</strong> Arthur Pendelton (Chief Editor)</p>
                     <p><strong>Approval Status:</strong> Approved</p>
                     <p><strong>Final Decision:</strong> Cleared for physical printing and digital distribution.</p>
                 </div>
 
-                <div class="Card">
+                <div class="Card" data-status="Conditional Approval">
                     <h3>Principles of Modern Physics</h3>
                     <p><strong>Reviewer:</strong> Dr. Aris Thorne (Academic Board)</p>
                     <p><strong>Approval Status:</strong> Conditional Approval</p>
                     <p><strong>Final Decision:</strong> Approved subject to minor bibliography corrections.</p>
                 </div>
 
-                <div class="Card">
+                <div class="Card" data-status="Under Revision">
                     <h3>Digital World Algorithms</h3>
                     <p><strong>Reviewer:</strong> Editorial Review Committee</p>
                     <p><strong>Approval Status:</strong> Under Revision</p>
@@ -59,9 +67,11 @@
     <!-- Footer Section -->
     <footer>
         <div class="Container">
-            <p>Book Publishing Workflow System</p>
+            <p>&copy; <span class="currentYear"></span> Book Publishing Workflow System</p>
         </div>
     </footer>
 
+    <!-- JavaScript File Linking -->
+    <script src="script.js"></script>
 </body>
 </html>

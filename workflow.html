@@ -34,38 +34,56 @@
                 
                 <div class="Card">
                     <h3>Stage 1: Manuscript Submission</h3>
-                    <p>The author submits the complete book draft along with the synopsis, genre details, and author biography.</p>
-                    <p><strong>Key Action:</strong> Initial document formatting and verification check.</p>
+                    <button type="button" class="toggle-btn" data-target="stage1-details">Hide Details</button>
+                    <div id="stage1-details">
+                        <p>The author submits the complete book draft along with the synopsis, genre details, and author biography.</p>
+                        <p><strong>Key Action:</strong> Initial document formatting and verification check.</p>
+                    </div>
                 </div>
 
                 <div class="Card">
                     <h3>Stage 2: Editing</h3>
-                    <p>The assigned editor reviews the manuscript for structure, character development, narrative flow, and clarity.</p>
-                    <p><strong>Key Action:</strong> Developmental and line editing with suggested author revisions.</p>
+                    <button type="button" class="toggle-btn" data-target="stage2-details">Hide Details</button>
+                    <div id="stage2-details">
+                        <p>The assigned editor reviews the manuscript for structure, character development, narrative flow, and clarity.</p>
+                        <p><strong>Key Action:</strong> Developmental and line editing with suggested author revisions.</p>
+                    </div>
                 </div>
 
                 <div class="Card">
                     <h3>Stage 3: Proofreading</h3>
-                    <p>The proofreader conducts a thorough check for grammatical errors, spelling mistakes, punctuation, and typesetting.</p>
-                    <p><strong>Key Action:</strong> Final grammar correction and text formatting.</p>
+                    <button type="button" class="toggle-btn" data-target="stage3-details">Hide Details</button>
+                    <div id="stage3-details">
+                        <p>The proofreader conducts a thorough check for grammatical errors, spelling mistakes, punctuation, and typesetting.</p>
+                        <p><strong>Key Action:</strong> Final grammar correction and text formatting.</p>
+                    </div>
                 </div>
 
                 <div class="Card">
                     <h3>Stage 4: Cover Design</h3>
-                    <p>The design team creates the front cover, back cover, spine artwork, and internal typography layout.</p>
-                    <p><strong>Key Action:</strong> Graphic artwork approval and print-ready layout creation.</p>
+                    <button type="button" class="toggle-btn" data-target="stage4-details">Hide Details</button>
+                    <div id="stage4-details">
+                        <p>The design team creates the front cover, back cover, spine artwork, and internal typography layout.</p>
+                        <p><strong>Key Action:</strong> Graphic artwork approval and print-ready layout creation.</p>
+                    </div>
                 </div>
 
                 <div class="Card">
                     <h3>Stage 5: Review</h3>
-                    <p>Senior reviewers and the editorial board perform a final review of the formatted book proof before printing.</p>
-                    <p><strong>Key Action:</strong> Quality assurance and editorial sign-off.</p>
+                    <button type="button" class="toggle-btn" data-target="stage5-details">Hide Details</button>
+                    <div id="stage5-details">
+                        <p>Senior reviewers and the editorial board perform a final review of the formatted book proof before printing.</p>
+                        <p><strong>Key Action:</strong> Quality assurance and editorial sign-off.</p>
+                    </div>
                 </div>
 
                 <div class="Card">
                     <h3>Stage 6: Publication</h3>
-                    <p>The final book is assigned an ISBN, printed in physical form, and published across digital bookstores.</p>
-                    <p><strong>Key Action:</strong> ISBN registration, printing, and global distribution.</p>
+                    <button type="button" class="toggle-btn" data-target="stage6-details">Hide Details</button>
+                    <div id="stage6-details">
+                        <p>The final book is assigned an ISBN, printed in physical form, and published across digital bookstores.</p>
+                        <p><strong>Key Action:</strong> ISBN registration, printing, and global distribution.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -74,9 +92,11 @@
     <!-- Footer Section -->
     <footer>
         <div class="Container">
-            <p>Book Publishing Workflow System</p>
+            <p>&copy; <span class="currentYear"></span> Book Publishing Workflow System</p>
         </div>
     </footer>
 
+    <!-- JavaScript File Linking -->
+    <script src="script.js"></script>
 </body>
 </html>

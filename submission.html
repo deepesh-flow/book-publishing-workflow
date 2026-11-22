@@ -34,7 +34,7 @@
                 
                 <div class="Card">
                     <h3>Submit a New Manuscript</h3>
-                    <form action="submission.html" method="get">
+                    <form id="submissionForm" action="submission.html" method="get">
                         <p>
                             <label for="authorName">Author Name:</label><br>
                             <input type="text" id="authorName" name="authorName" placeholder="Enter author full name" required>
@@ -68,12 +68,13 @@
 
                         <p>
                             <label for="description">Short Description:</label><br>
-                            <textarea id="description" name="description" rows="4" placeholder="Enter a brief summary of your manuscript..." required></textarea>
+                            <textarea id="description" name="description" rows="4" maxlength="500" placeholder="Enter a brief summary of your manuscript..." required></textarea><br>
+                            <small id="charCounter">Characters: 0 / 500</small>
                         </p>
 
                         <p>
                             <input type="submit" value="Submit Manuscript">
-                            <input type="reset" value="Reset Form">
+                            <input type="reset" id="resetBtn" value="Reset Form">
                         </p>
                     </form>
                 </div>
@@ -84,9 +85,11 @@
     <!-- Footer Section -->
     <footer>
         <div class="Container">
-            <p>Book Publishing Workflow System</p>
+            <p>&copy; <span class="currentYear"></span> Book Publishing Workflow System</p>
         </div>
     </footer>
 
+    <!-- JavaScript File Linking -->
+    <script src="script.js"></script>
 </body>
 </html>

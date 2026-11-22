@@ -189,6 +189,25 @@ input[type="reset"]:hover {
     background-color: #493526;
 }
 
+/* Button Styling (for Filter Buttons) */
+button {
+    background-color: #F5F0E5;
+    color: #183728;
+    border: 1px solid #234B35;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #234B35;
+    color: #FFFFFF;
+}
+
 /* Footer Section */
 footer {
     background-color: #183728;
